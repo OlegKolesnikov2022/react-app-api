@@ -4,7 +4,7 @@ const app = express()
 app.get("/api",(re,res) =>{
     res.json(
         {
-            "users": ["userOne", "userTwo", "userThree"]
+            "users": ["userOne", "userTwo", "userThree", "userFour", "userFive", "userSix", "userSeven", "userEight", "userNine"]
         }
     )
 })

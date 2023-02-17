@@ -1,4 +1,6 @@
 import React , {useEffect,useState} from 'react';
+import BasicExample from './card.js';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
 
@@ -21,9 +23,8 @@ function App() {
 
   return (
     <div>
-      
-      {(typeof backendData.users === 'undefined')?(<p>Loading...</p>):(backendData.users.map((user,i)=>(<p key ={i} >{user}</p>)))}
-      
+      <BasicExample></BasicExample>
+  
     </div>
   );
 }
