@@ -1,0 +1,11 @@
+This application uses express as the backend and react as the front-end
+Front-end end uses port 3000 
+Backend uses port 5000
+Front-end communicates with the back-end using the useEffect() , UseState() and Fetch() methods
+Bootstrap is used for styling
+
+To start Server 
+  $ npm run server
+ 
+To start client
+  $ npm run client
